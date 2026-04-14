@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Gantt Dijagram</title>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['gantt']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Task ID');
+        data.addColumn('string', 'Task Name');
+        data.addColumn('date', 'Start Date');
+        data.addColumn('date', 'End Date');
+        data.addColumn('number', 'Duration');
+        data.addColumn('number', 'Percent Complete');
+        data.addColumn('string', 'Dependencies');
+
+        data.addRows([
+          ['1', '1. Pokretanje projekta', new Date(2026, 3, 3), new Date(2026, 3, 9), null,  0,  null],
+          ['1a', '-> Analiza resursa', new Date(2026, 3, 3), new Date(2026, 3, 5), null, 0, null],
+          ['1b', '-> Sastavljanje tima', new Date(2026, 3, 6), new Date(2026, 3, 8), null, 0, null],
+          
+          ['2', '2. Terenska analiza', new Date(2026, 3, 10), new Date(2026, 3, 25), null, 0, null],
+          ['2a', '-> Sastanci s upravom', new Date(2026, 3, 10), new Date(2026, 3, 15), null, 0, null],
+          ['2b', '-> Izdvajanje problema', new Date(2026, 3, 15), new Date(2026, 3, 20), null, 0, null],
+          
+          ['3', '3. Tehnicko projektiranje', new Date(2026, 3, 26), new Date(2026, 4, 10), null, 0, null],
+          ['3a', '-> ER Dijagram i Baza', new Date(2026, 3, 26), new Date(2026, 4, 3), null, 0, null],
+          
+          ['4', '4. Kodiranje i provjera', new Date(2026, 4, 11), new Date(2026, 5, 2), null, 0, null],
+          ['4a', '-> Modul zivotinja', new Date(2026, 4, 12), new Date(2026, 4, 25), null, 0, null]
+        ]);
+
+        var options = {
+          height: 600,
+          gantt: {
+            trackHeight: 30
+          }
+        };
+
+        var chart = new google.visualization.Gantt(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: white;">
+    <h2>Gantt dijagram planiranja projekta (e-Sklonište)</h2>
+    <div id="chart_div"></div>
+</body>
+</html>
