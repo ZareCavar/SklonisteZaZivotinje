@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Sklonište za Životinje" company="" webLink="http://" view-date="2026-04-06" view-index="0" gantt-divider-location="366" resource-divider-location="300" version="3.3.3316" locale="hr_HR">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Naziv" width="200" order="0"/>
+        <field id="tpd4" name="Početni datum" width="75" order="1"/>
+        <field id="tpd5" name="Završni datum" width="75" order="2"/>
+        <field id="tpd15" name="Bilješke" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Ime" width="210" order="0"/>
+        <field id="1" name="Zadana uloga" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="95bc5751c46040299fefd6d65741ab54" name="Pokretanje Projekta" meeting="false" start="2026-04-03" duration="4" complete="0" expand="true">
+            <task id="4" uid="629189127a6840d89ed890faaac50dfb" name="Analiza postoječih resursa" meeting="false" start="2026-04-03" duration="2" complete="0" expand="true"/>
+            <task id="3" uid="9202bc871b5f4487a7796d47f1d5a43d" name="Sastavljanje developerskog tima" meeting="false" start="2026-04-06" duration="2" complete="0" expand="true"/>
+            <task id="2" uid="c94d059de2ef4a1584e043b51db54b87" name="Finaliziranje i prijava teme" meeting="false" start="2026-04-08" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="6" uid="8b139daa5bef4096babfd061564a23c1" name="Terenska Analiza" meeting="false" start="2026-04-10" duration="11" complete="0" expand="false">
+            <task id="8" uid="ba1c9dfecdf240c7919518c4097b2001" name="Sastanci s upravom skloništa" meeting="false" start="2026-04-10" duration="4" complete="0" expand="true"/>
+            <task id="9" uid="233d0b0976b84f1a9b918b60bf8167bf" name="Izdvajanje ključnih problema" meeting="false" start="2026-04-15" duration="3" complete="0" expand="true"/>
+            <task id="10" uid="315854625d5f4a4a963e4fba9fb0bd2d" name="Definiranje opcija za udomitelje" meeting="false" start="2026-04-17" duration="4" complete="0" expand="true"/>
+            <task id="7" uid="0d91f67e6d4d4c3d96a9d5ac1f229bc1" name="Pisanje zahtjeva aplikacije" meeting="false" start="2026-04-23" duration="2" complete="0" expand="true"/>
+            <task id="19" uid="2ffa0945428840ebaaf6934152829125" name="Završena analiza zahtjeva" meeting="true" start="2026-04-27" duration="0" complete="0" expand="true"/>
+        </task>
+        <task id="11" uid="8c0c2dbcc0074f58a644449753d0baaa" name="Tehničko projektiranje" meeting="false" start="2026-04-24" duration="12" complete="0" expand="false">
+            <task id="12" uid="945b8e69209f4ab1ad05bea099715041" name="Modeliranje ER baze podataka" meeting="false" start="2026-04-24" duration="5" complete="0" expand="true"/>
+            <task id="13" uid="09ac2c66df3f4e479210f9f574885356" name="Crtanje ekrana aplikacije" meeting="false" start="2026-04-30" duration="4" complete="0" expand="true"/>
+            <task id="14" uid="5c7626ad9e034c1baba7c34849da5f9c" name="Slojevita softverska arhitektura" meeting="false" start="2026-05-06" duration="4" complete="0" expand="true"/>
+            <task id="20" uid="f748b487b43848fdbaab025093234f4d" name="Završeno projektiranje sustava" meeting="true" start="2026-05-11" duration="0" complete="0" expand="true"/>
+        </task>
+        <task id="15" uid="ce2cd55b27af4831a57d22dbd9e6f06b" name="Kodiranje i provjera" meeting="false" start="2026-05-11" duration="16" complete="0" expand="false">
+            <task id="16" uid="8154350b66364f47a3168978a1cb1f5f" name="Podizanje SQL baze" meeting="false" start="2026-05-11" duration="4" complete="0" expand="true"/>
+            <task id="17" uid="4391a609daa747f18b7621cae9c3d32f" name="Programiranje kartona životinja" meeting="false" start="2026-05-15" duration="6" complete="0" expand="true"/>
+            <task id="18" uid="9c8718d4a12e4916b54d86b1b60aaa86" name="Modul volontera te bugovi" meeting="false" start="2026-05-25" duration="6" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
