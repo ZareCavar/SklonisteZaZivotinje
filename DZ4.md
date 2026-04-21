@@ -32,19 +32,9 @@ Ocjene su dane od 1 do 5, gdje je:
 - 5 = vrlo dobro
 
 Težina pokazuje koliko je pojedini kriterij važan pri odabiru rješenja.
+Tablica vrijednovanja
+(DZ4TABLICA.xlsx)
 
-Tablica ponderiranog vrijednovanja
-
-| Karakteristika | Težina | Vlastiti sustav | Bodovi | Nadogradnja postojećeg | Bodovi | Gotovi softver | Bodovi |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| Početni trošak | 5 | 2 | 10 | 4 | 20 | 3 | 15 |
-| Vrijeme implementacije | 4 | 2 | 8 | 4 | 16 | 5 | 20 |
-| Prilagođenost potrebama skloništa | 5 | 5 | 25 | 3 | 15 | 3 | 15 |
-| Jednostavnost korištenja | 4 | 4 | 16 | 3 | 12 | 4 | 16 |
-| Mogućnost održavanja | 3 | 4 | 12 | 2 | 6 | 4 | 12 |
-| Sigurnost podataka | 4 | 4 | 16 | 2 | 8 | 4 | 16 |
-| Mogućnost nadogradnje | 4 | 5 | 20 | 2 | 8 | 3 | 12 |
-| **Ukupno** |  |  | **107** |  | **85** |  | **106** |
 Kratko obrazloženje
 
 Vlastiti sustav ima najveću prilagođenost potrebama skloništa i najbolju mogućnost nadogradnje, ali mu je nedostatak veći početni trošak i duže vrijeme izrade.
