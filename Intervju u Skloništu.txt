@@ -1,0 +1,39 @@
+Zapisnik s intervjua
+
+Naziv dokumenta: Zapisnik s intervjua – sklonište za životinje
+Datum: 21. 4. 2026.
+Mjesto: Sklonište za životinje
+Sugovornik: Anita Ćavar, djelatnica skloništa
+Intervju vodio: Žarko Ćavar
+
+Svrha razgovora
+
+Cilj razgovora bio je prikupiti informacije o svakodnevnom radu skloništa i utvrditi koje bi funkcionalnosti budući informacijski sustav trebao podržavati.
+
+Kratak opis sugovornika
+
+Sugovornica radi u skloništu na poslovima zaprimanja životinja, vođenja osnovne evidencije, komunikacije s veterinarom i praćenja procesa udomljavanja.
+
+Tijek razgovora i sažetak odgovora
+
+1. Kako trenutno vodite evidenciju životinja?
+Evidencija se vodi djelomično ručno, a djelomično u tablicama. Za svaku životinju bilježe se osnovni podaci kao što su vrsta, spol, približna starost, datum dolaska i trenutno zdravstveno stanje.
+
+2. Koji su najveći problemi u sadašnjem načinu rada?
+Najveći problem je što su podaci raspoređeni na više mjesta pa ih je teško brzo pronaći. Također se zna dogoditi da se neki podatak ne ažurira na vrijeme, posebno kad je riječ o liječenju, cijepljenju ili promjeni statusa životinje.
+
+3. Koje podatke je najvažnije imati o svakoj životinji?
+Najvažniji su identifikacijski podaci, podaci o zdravstvenom stanju, podaci o cijepljenju i liječenju, informacije o ponašanju životinje te status udomljavanja.
+
+4. Kako izgleda postupak udomljavanja?
+Kada se pojavi zainteresirana osoba, najprije se provjerava odgovara li joj određena životinja. Nakon toga se prikupljaju osnovni podaci o udomitelju, bilježi se datum udomljavanja i životinja dobiva novi status.
+
+5. Vodite li evidenciju o volonterima i donacijama?
+Da, ali ne na jednom mjestu. Volonteri se uglavnom vode kroz jednostavne popise, a donacije se bilježe odvojeno, što otežava praćenje.
+
+6. Što bi vam najviše pomoglo u novom sustavu?
+Pomogao bi jedinstven sustav u kojem bi se za svaku životinju moglo vidjeti sve na jednom mjestu: osnovni podaci, zdravstveni karton, status udomljavanja i eventualne napomene. Također bi koristilo da sustav vodi evidenciju volontera i donacija.
+
+Zaključak
+
+Na temelju razgovora može se zaključiti da skloništu treba sustav koji će objediniti evidenciju životinja, zdravstvene podatke, proces udomljavanja te dodatno omogućiti praćenje volontera i donacija.
